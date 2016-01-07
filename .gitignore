@@ -1,0 +1,24 @@
+# node modules from npm
+node_modules
+# components from bower dependency management software
+bower_components
+
+# Logs and databases #
+######################
+*.log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+/nbproject/private/
+
+# build artifacts
+build
+bin
+.bin

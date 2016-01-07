@@ -1,0 +1,36 @@
+{
+  "name": "jquery-mobile-for-synnex",
+  "description": "A custom-theme-included build of jquery mobile for Synnex Tech Int'l Corp",
+  "main": [
+	"./images/icons-png/*",
+	"./images/ajax-loader.gif",
+	"./jquery-mobile-theme-for-synnex.css",
+	"./jquery.mobile.icons.css",
+	"./jquery.mobile.structure.css",
+	"./jquery.mobile.js"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "jquery-mobile",
+    "Synnex-Tech-Int'l-Corp",
+    "Cordova",
+    "Worklight",
+    "MobileFirst"
+  ],
+  "authors": [
+    "martinli"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+		"jquery": "1.10.2"
+	},
+}
