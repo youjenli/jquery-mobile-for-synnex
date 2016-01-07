@@ -1,6 +1,6 @@
 {
   "name": "jquery-mobile-for-synnex",
-  "description": "A custom-theme-included build of jquery mobile for Synnex Tech Int'l Corp",
+  "description": "A custom-theme-included build of jquery mobile 1.4.5 for Synnex Tech Int'l Corp",
   "main": [
 	"./images/icons-png/*",
 	"./images/ajax-loader.gif",
@@ -28,9 +28,10 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+	"launch-browser.js"
   ],
   "dependencies": {
-		"jquery": "1.10.2"
+		"jquery": "^1.9.1"
 	},
 }
