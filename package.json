@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "description": "jquery mobile 1.4.5 custom theme for Synnex Technology International Corporation.",
   "main": "index.html",
+  "scripts": {
+    "start": "serve"
+  },
   "keywords": [
     "cordova",
     "Synnex",
     "MobileFirst",
     "Worklight"
   ],
-  "author": "martinli"  
+  "author": "martinli",
+  "devDependencies": {
+    "serve": "^1.4.0"
+  }
 }
